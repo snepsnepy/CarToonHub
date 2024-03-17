@@ -8,5 +8,8 @@ export default defineNuxtConfig({
     autoImport: true,
   },
 
-  modules: ["@nuxtjs/tailwindcss"]
+  modules: ["@nuxtjs/tailwindcss"],
+  supabase: {
+    redirect: false,
+  },
 });
